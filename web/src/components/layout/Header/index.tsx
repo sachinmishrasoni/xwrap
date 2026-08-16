@@ -15,7 +15,7 @@ const Header: React.FC = () => {
 
                 <HeaderActions />
 
-                <div className="md:hidden">
+                <div className="md:hidden pointer-events-auto">
                     <MobileMenu />
                 </div>
             </Container>

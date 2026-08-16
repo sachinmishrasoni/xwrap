@@ -20,8 +20,15 @@ const MobileMenu = () => {
         <Sheet>
             <SheetTrigger
                 render={<Button variant="outline" size="icon"><CgMenuRight size={24} /></Button>}
+                // render={
+                //     <button
+                //         className="border p-2 rounded text-primary hover:bg-primary hover:text-primary-foreground"
+                //         onClick={() => console.log("button clicked")}
+                //     >
+                //         Menu
+                //     </button>
+                // }
             />
-
 
             <SheetContent side="left">
                 <SheetHeader>
