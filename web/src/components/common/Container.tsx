@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 interface ContainerProps {
     children: React.ReactNode;
     className?: string;
-    maxWidth?: "sm" | "md" | "lg" | "xl" | "xxl" | "full";
+    maxWidth?: "sm" | "md" | "lg" | "xl" | "2xl" | "full";
     disableGutter?: boolean;
 }
 
@@ -13,7 +13,7 @@ const maxWidthClasses = {
     md: "max-w-screen-md",
     lg: "max-w-screen-lg",
     xl: "max-w-screen-xl",
-    xxl: "max-w-[1440px]",
+    "2xl": "max-w-[1440px]",
     full: "max-w-full",
 };
 
